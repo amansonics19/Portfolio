@@ -1,0 +1,351 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Times New Roman";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+
+}
+
+.top-wrapper {
+  padding: 180px 0 180px 0;
+  background-image: url(https://miro.medium.com/max/3840/1*ee9Ji2ToUxeYfj3YUQ1xsA.jpeg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  border-bottom: 1px solid cyan;
+}
+
+.top-wrapper h1 {
+  opacity: 0.9;
+  font-size: 50px;
+  letter-spacing: 5px;
+  
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color:black;
+}
+
+.top-wrapper h2 {
+
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-top:10px;
+  margin-bottom: 50px;
+  color:white;
+}
+.top-wrapper p {
+  opacity: 0.7;
+  margin-top:25px;
+  margin-bottom: 25px;
+  font-size:20px;
+
+}
+.btn {
+  padding: 12px 24px;
+  color: black;
+  display: inline-block;
+  opacity: 0.5 ;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 400;
+}
+.btn:hover {
+  opacity: 1;
+}
+.click {
+  background-color: cyan;
+   padding: 15px 40px;
+    cursor: pointer;
+  box-shadow: 5px 7px black;
+}
+.click:active {
+  position: relative;
+  top: 7px;
+  box-shadow: solid;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(217, 217, 217, 0.5);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+
+}
+
+.header-left {
+  float: left;
+  padding:15px 5px;
+  font-size:30px;
+  color:#33334d;
+  font-weight: bold;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 20px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+  color:#33334d;
+  font-size:18px;
+}
+
+.header-right a:hover {
+  background-color: rgba(102, 102,153 , 0.3);
+}
+
+/* Add CSS for menu-icon */
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Change the display property to none */
+  display:none;
+}
+
+
+.lesson-wrapper {
+  margin-top: 0px;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgb(0, 0, 0,0.8);
+  border-bottom: 5px solid black;
+  
+}
+
+.lesson2-wrapper {
+  margin-top: 0px;
+  padding-bottom: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-image: url(https://i.pinimg.com/originals/28/80/81/28808171a92da9f4ba7beb4c6677fc5e.png);
+  background-size: cover;
+ 
+  
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.border{
+  border:3px solid #000080;
+  border-radius:10px;
+  opacity: 6;
+  margin-top:-5px;
+  padding-bottom: 5px;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+.lesson2 {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+  margin-top:50px;
+}
+
+.lesson2-icon {
+  position: relative;
+  margin-top:50px;
+}
+.lesson-icon p {
+
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: black;
+}
+.lesson2-icon p {
+
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: black;
+}
+
+.text-contents {
+  
+  display: inline;
+  font-size: 0px;
+  
+}
+.aboutme{
+  font-size: 20px; 
+  height:20px;
+  margin-bottom:20px ;
+  text-align: justify;
+  line-height: 30px;
+  color:white;
+}
+.aboutproject{
+  font-size: 20px; 
+  height:20px;
+  margin-bottom:60px ;
+  text-align: justify;
+  line-height: 40px;
+  color:#003d4d;
+  font-weight: 600;
+}
+.college{
+  font-weight: bold;
+  color:cyan;
+}
+.progate{
+  font-weight: bold;
+  color:cyan;
+
+}
+.project{
+  font-weight: bold;
+  color:#002933;
+  font-size:40px;
+  margin-top:0px;
+  margin-bottom: :10px;
+}
+
+.message-wrapper {
+  margin-top:0px;
+ margin-bottom: 0px;
+  padding-bottom: 50px;
+  text-align: center;
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-3d-gray-studio-background-image_356285.jpg);
+  background-size: cover;
+}
+
+.top {
+  padding: 15px 40px;
+  background-color: #ff9999;
+  cursor: pointer;
+  box-shadow: 5px 7px #000066;
+}
+
+.top:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+.btn-wrapper1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper {
+
+  text-align: left;
+  margin-top:0px; 
+}
+
+
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  opacity: 0.9;
+  border-radius: 4px;
+  text-align: center;
+  margin:5px 55px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+
+.hackerank {
+
+  background-color: #24a824;
+    padding: 15px 40px;
+    cursor: pointer;
+  box-shadow: 5px 7px black;
+}
+.hackerank:active {
+  position: relative;
+  top: 7px;
+  box-shadow: solid;
+}
+.linkedin {
+  background-color: #0000b3;
+  padding: 15px 40px;
+    cursor: pointer;
+  box-shadow: 5px 7px black;
+}
+.linkedin:active {
+  position: relative;
+  top: 7px;
+  box-shadow: solid;
+}
+.instagram {
+  background-color: #ff0080;
+  padding: 15px 40px;
+    cursor: pointer;
+  box-shadow: 5px 7px black;
+}
+.instagram:active {
+  position: relative;
+  top: 7px;
+  box-shadow: solid;
+}
+
+.github {
+  background-color:#4d4d4d;
+  padding: 15px 40px;
+    cursor: pointer;
+  box-shadow: 5px 7px black;
+}
+.github:active {
+  position: relative;
+  top: 7px;
+  box-shadow: solid;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+ 
+  padding-top:10px;
+}
+
+footer {
+   padding-top: 0px;
+  padding-bottom: 5px;
+  background-color: rgb(0, 0, 0,0.8);
+}

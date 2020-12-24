@@ -1,0 +1,154 @@
+/* For Tablets */
+@media all and (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  .lesson2 {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  
+  .heading h2 {
+    font-size: 20px;
+  }
+  .lesson-icon
+  {
+    height:100px;
+    width:250px
+  }
+ .lesson2-icon
+  {
+    height:100px;
+    width:250px
+  }
+.lesson-wrapper {
+  margin-top: -15px;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgb(0, 0, 0,0.8);
+  
+}
+.lesson2-wrapper {
+  margin-top: -15px;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgb(121, 131, 134,0.3);  
+}
+.lesson2-wrapper p{
+   line-height:20px;
+}
+  .aboutme{
+  font-size: 20px; 
+  height:50px;
+  margin-bottom:20px ;
+  text-align: justify;
+  line-height: 30px;
+  color:white;
+}
+ .aboutproject{
+  font-size: 20px; 
+  height:50px;
+  margin-bottom:20px ;
+  text-align: left
+  line-height: 30px;
+  color:#003d4d;
+
+}
+ .btn {
+    width: 50%;
+    text-align: center;
+  }
+
+
+
+}
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+  .lesson {
+    width: 100%;
+
+  }
+  .lesson2 {
+    width: 100%;
+
+  }
+  footer {
+    text-align: center;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+  
+ 
+  .top-wrapper {
+    text-align: center;
+  }
+  
+  /* Add CSS for header-right */
+  .header-right{
+    display:none;
+  }
+  
+  /* Add CSS for menu-icon */
+  .menu-icon{
+    display:block;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;}
+
+.lesson-wrapper {
+  text-align: center;  
+  padding-top:5%;
+  padding-bottom: 20%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgb(0, 0, 0,0.8);
+  
+}
+.lesson2-wrapper {
+  margin-top:0px;
+  text-align: center;  
+  padding-top:5%;
+  padding-bottom: 20%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgb(121, 131, 134,0.3);
+  
+}
+  .aboutme{
+  font-size: 20px; 
+  height:300px;
+  margin-bottom:20px ;
+  text-align: left;
+  line-height: 60px;
+  color:white;
+}
+ .aboutproject{
+  text-align: center;
+  font-size: 20px; 
+  height:300px;
+  margin-bottom:20px ;
+  
+  line-height: 60px;
+  color:#003d4d;
+}
+
+
+
+}
